@@ -70,3 +70,49 @@ Formel für Permutationen mit Wiederholungen:
 $$
 P_n(n_1,n_2,n_3,n_4) = \frac{6!}{2! \cdot 2! \cdot 1! \cdot 1!} = \frac{720}{2 \cdot 2 \cdot 1 \cdot 1} = \boxed{180}
 $$
+
+
+## ESA1 - Aufgabe 4 – Buchstabenpermutationen des Wortes ELEVEN
+
+**Gegeben:** 6 Buchstaben mit $$E$$ dreifach, andere Buchstaben einfach.
+
+Gegeben:
+
+- $$n$$ = 6 (Gesamtanzahl der Buchstaben)
+- $$n_1$$ = 3 (Anzahl der Buchstaben E)
+- $$n_2$$ = 1 (Anzahl der Buchstaben L)
+- $$n_3$$ = 1 (Anzahl der Buchstaben V)
+- $$n_4$$ = 1 (Anzahl der Buchstaben N)
+
+### (a) Wie viele Worte kann man hieraus durch Buchstabenvertauschungen erzeugen ?
+
+**Verwendete Formel: Permutationen mit Wdh.:**
+
+$$
+\frac{n!}{(n_1)! * (n_2)! * (n_3)! * (n_4)!} = \frac{6!}{3!} = 4 * 5 * 6 = 120
+$$
+
+### (b) Wie viele dieser Worte beginnen und enden mit einem E ?
+
+Fixierte Positionen: Anfang und Ende = E → verbleibend: L, V, N, E
+
+$$
+\frac{(n-2)!}{(n_1 - 2)! * (n_2)! * (n_3)! * (n_4)!} = 4! = 24
+$$
+
+### (c) Wie viele dieser Worte enthalten die drei E's direkt hintereinander ?
+
+Block `EEE`, restliche Buchstaben: L, V, N → 4 Elemente:
+
+$$
+n! = 4! = 24
+$$
+
+### (d) Wie viele dieser Worte beginnen mit E und enden mit N ?
+
+Verbleibende Buchstaben: 2xE, L, V
+
+$$
+\frac{(n-2)!}{(k_1-1)! *(k_2)! * (k_3)! * (k_4-1)!} = 
+        \frac{4!}{2!} = \frac{24}{2} = 12
+$$
