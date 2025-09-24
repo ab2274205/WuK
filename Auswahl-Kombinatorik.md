@@ -44,9 +44,9 @@ $$\binom{n}{k} = \binom{10}{7} = 120$$
 3. **Berechnung:**
     - Gesamtmöglichkeiten = $\binom{5}{3} \times \binom{5}{4} = 10 \times 5 = 50$
 
-
-#### Klausur 2014 (Auswahl ohne Zurücklegen ohne Reihenfolge - **Kombinatorik ohne Wiederholungen**)
+***
 ## Ein Student muss in einer Prüfung 10 von 13 Fragen beantworten.  
+#### Klausur 2014 (Auswahl ohne Zurücklegen ohne Reihenfolge - **Kombinatorik ohne Wiederholungen**)
 (a) Auf wie viele verschiedene Weisen kann er 10 Fragen auswählen (und beantworten)?
 
 $$
@@ -77,3 +77,34 @@ Das sind die Fälle genau 3, genau 4 oder genau 5 der ersten 5 Fragen:
 $$
 \binom{5}{3} \times \binom{8}{7-3} + \binom{5}{4} \times \binom{8}{7-4} + \binom{5}{5} \times \binom{8}{7-5} = 80 + 165 + 31 = 276
 $$
+***
+
+#### Klausur 08 (Auswahl ohne Zurücklegen ohne Reihenfolge - **Kombinatorik ohne Wiederholungen**)
+## Ein Florist hat Rosen in 4 verschiedenen Farben vorrätig. Auf wie viele Weisen können Sie Sträuße aus 6 Rosen zusammenstellen, wenn
+
+(a) Genau 2 rote und 2 gelbe Rosen sollen dabei sein
+
+??? 
+
+3
+
+(b) Jede der 4 Farben muss mindestens einmal vorkommen
+
+??
+
+$$
+\binom{5}{2} = 10
+$$
+
+(c) Farbzusammenstellung beliebig
+
+Kombination mit Wiederholung ("Stars and Bars"-Problem):
+
+- 6 Kugeln (Rosen) in 4 Kisten (Farben)
+- Formel: $\binom{n+k-1}{k}$ mit $n=4,\,k=6$
+
+$$
+\binom{9}{6} = 84
+$$
+
+***
