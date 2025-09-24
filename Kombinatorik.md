@@ -159,3 +159,35 @@ Die Anzahl der Permutationen von $n=5$ Elementen zur Auswahl von $k=3$ lautet:
 $$
 P(5,3) = \frac{5!}{(5-3)!} = \frac{5!}{2!} = \frac{120}{2} = 60
 $$
+
+***
+### Gegeben seien BAFANABAFANA
+#### Einsendeaufgabe 2020
+
+Gegeben:
+- $$n$$ = 12 (Gesamtanzahl der Buchstaben)
+- $$n_1$$ = 2 (Anzahl der Buchstaben B)
+- $$n_2$$ = 2 (Anzahl der Buchstaben F)
+- $$n_3$$ = 2 (Anzahl der Buchstaben N)
+- $$n_4$$ = 6 (Anzahl der Buchstaben A)
+
+(a) Wie viele Woerter kann man hieraus durch Buchstabenvertauschungen erzeugen?
+
+Es gibt:
+        12! / (6! 2! 2! 2!) = 83160
+    Anordnungen
+
+(b) Wie viele dieser Woerter beginnen mit BA und enden mit NA?
+
+Es gibt:
+        (12 - 4)!/ (6-2)! * (2)! * (2-1)! * (2-1)! = 8! / (4! 2! 1! 1!) = 840
+    Anordnungen, die mit einem BA beginnen und einem NA enden.
+
+(c) Wie viele dieser Woerter kann man so erzeugen, bei denen die B’s, die F’s und die
+ N‘s nur paarweise nebeneinander auftreten (also als BB, FF bzw. NN)?)
+BB, FF, NN, 6 x A 
+**n** = 9 (12 - 3)
+
+ Es gibt:
+        9! / (6! 1! 1! 1!) = 504
+    Anordnungen.
