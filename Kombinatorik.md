@@ -94,16 +94,18 @@ $$
 
 ### (b) Wie viele dieser Worte beginnen und enden mit einem E ?
 
-Fixierte Positionen: Anfang und Ende = E → verbleibend: L, V, N, E
+Fixierte Positionen: Anfang und Ende = E → verbleibend: L, V, N, E → (n = 4)
+
+**Verwendete Formel: Permutationen ohne Wdh.:**
 
 $$
-\frac{(n-2)!}{(n_1 - 2)! * (n_2)! * (n_3)! * (n_4)!} = 4! = 24
+n! = 4! = 24
 $$
 
 ### (c) Wie viele dieser Worte enthalten die drei E's direkt hintereinander ?
 
 Block `EEE`, restliche Buchstaben: L, V, N → 4 Elemente:
-
+**Verwendete Formel: Permutationen ohne Wdh.:**
 $$
 n! = 4! = 24
 $$
@@ -111,6 +113,8 @@ $$
 ### (d) Wie viele dieser Worte beginnen mit E und enden mit N ?
 
 Verbleibende Buchstaben: 2xE, L, V
+
+**Verwendete Formel: Permutationen mit Wdh.:**
 
 $$
 \frac{(n-2)!}{(n_1-1)! *(n_2)! * (n_3)! * (n_4-1)!} = 
