@@ -1,4 +1,4 @@
-## KLAUSUR25 - Buchstabensalat, Mengen, Multimengen (7 P.)
+# KLAUSUR25 - Buchstabensalat, Mengen, Multimengen (7 P.)
 
 ### Gegeben sei das Wort MAMALAMML.
 
@@ -72,7 +72,7 @@ P_n(n_1,n_2,n_3,n_4) = \frac{6!}{2! \cdot 2! \cdot 1! \cdot 1!} = \frac{720}{2 \
 $$
 
 
-## ESA1 - Aufgabe 4 – Buchstabenpermutationen des Wortes ELEVEN
+# ESA1 - Aufgabe 4 – Buchstabenpermutationen des Wortes ELEVEN
 
 **Gegeben:** 6 Buchstaben mit $$E$$ dreifach, andere Buchstaben einfach.
 
@@ -113,6 +113,55 @@ $$
 Verbleibende Buchstaben: 2xE, L, V
 
 $$
-\frac{(n-2)!}{(k_1-1)! *(k_2)! * (k_3)! * (k_4-1)!} = 
+\frac{(n-2)!}{(n_1-1)! *(n_2)! * (n_3)! * (n_4-1)!} = 
         \frac{4!}{2!} = \frac{24}{2} = 12
+$$
+
+ 
+# Präsenzveranstaltung SS 2025 - Anordnungen und Zahlenbildung mit Ziffern (5 P.)
+
+### Gegeben seien die Ziffern 1, 2, 3, 4, 5.
+
+### (a) Wie viele verschiedene Anordnungen dieser 5 Ziffern gibt es?
+
+Vorbetrachtung: Die 5 Ziffern sind alle verschieden.
+
+Gegeben:
+
+- **n = 5** (Anzahl der Ziffern)
+
+Da alle 5 Ziffern verschieden sind, verwenden wir die Formel für **Permutationen ohne Wiederholung**:
+
+$$
+P_n = n! = 5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
+$$
+
+***
+
+### (b) Wie viele vierstellige Zahlen kann man aus diesen Ziffern bilden, wenn jede Ziffer beliebig oft vorkommen kann?
+
+Vorbetrachtung: Hier dürfen Ziffern mehrfach verwendet werden (mit Wiederholung), und die Zahl besteht aus 4 Stellen (Variation).
+
+- **k** - Anzahl der Stellen: **4**
+- **n** - Anzahl der möglichen Ziffern pro Stelle: **5**
+
+Da jede Stelle unabhängig gewählt werden kann mit 5 möglichen Ziffern, gilt:
+
+$$
+n^k = 5^4 = 5 \cdot 5 \cdot 5 \cdot 5 = 625
+$$
+
+***
+
+### (c) Wie viele dreistellige Zahlen kann man bilden, wenn jede Ziffer nur höchstens einmal vorkommen darf?
+
+Vorbetrachtung: Es handelt sich um Variation ohne Wiederholung von 3 Ziffern aus 5.
+
+- **k** - Anzahl der Stellen: **3**
+- **n** - Anzahl der möglichen Ziffern pro Stelle: **5**
+
+Die Anzahl der Permutationen von $n=5$ Elementen zur Auswahl von $k=3$ lautet:
+
+$$
+P(5,3) = \frac{5!}{(5-3)!} = \frac{5!}{2!} = \frac{120}{2} = 60
 $$
