@@ -1,7 +1,7 @@
-# KLAUSUR25 - Buchstabensalat, Mengen, Multimengen (7 P.)
+# Buchstabensalat, Mengen, Multimengen (7 P.)
 
 ### Gegeben sei das Wort MAMALAMML.
-
+#### Klausur SS25
 **(a) Wie viele verschiedene Worte kann man durch Vertauschen der Buchstaben von „MAMALAMML“ erzeugen?**
 
 Vorbetrachtung: Das Wort besteht aus der Multimenge der Buchstaben
@@ -27,7 +27,6 @@ $$
 P_n(n_1,n_2,n_3) = \frac{9!}{4! \cdot 3! \cdot 2!} = \frac{362880}{24 \cdot 6 \cdot 2} = \boxed{1260}
 $$
 
-***
 
 **(b) Wie viele dieser Worte beginnen und enden mit "M"?**
 
@@ -45,8 +44,6 @@ Wieder Anwendung der Permutationsformel (mit Wiederholungen):
 $$
 P_n(n_1,n_2,n_3) = \frac{7!}{2! \cdot 3! \cdot 2!} = \frac{5040}{2 \cdot 6 \cdot 2} = \boxed{210}
 $$
-
-***
 
 **(c) Wie viele dieser Worte enthalten die Zeichenfolge „MAMA“?**
 
@@ -71,20 +68,17 @@ $$
 P_n(n_1,n_2,n_3,n_4) = \frac{6!}{2! \cdot 2! \cdot 1! \cdot 1!} = \frac{720}{2 \cdot 2 \cdot 1 \cdot 1} = \boxed{180}
 $$
 
+***
+### Gegeben sei das Wort ELEVEN.
+#### ESA1 25
 
-# ESA1 - Aufgabe 4 – Buchstabenpermutationen des Wortes ELEVEN
-
-**Gegeben:** 6 Buchstaben mit $$E$$ dreifach, andere Buchstaben einfach.
-
+**(a) Wie viele Worte kann man hieraus durch Buchstabenvertauschungen erzeugen ?**
 Gegeben:
-
 - $$n$$ = 6 (Gesamtanzahl der Buchstaben)
 - $$n_1$$ = 3 (Anzahl der Buchstaben E)
 - $$n_2$$ = 1 (Anzahl der Buchstaben L)
 - $$n_3$$ = 1 (Anzahl der Buchstaben V)
 - $$n_4$$ = 1 (Anzahl der Buchstaben N)
-
-### (a) Wie viele Worte kann man hieraus durch Buchstabenvertauschungen erzeugen ?
 
 **Verwendete Formel: Permutationen mit Wdh.:**
 
@@ -92,7 +86,7 @@ $$
 \frac{n!}{(n_1)! * (n_2)! * (n_3)! * (n_4)!} = \frac{6!}{3!} = 4 * 5 * 6 = 120
 $$
 
-### (b) Wie viele dieser Worte beginnen und enden mit einem E ?
+**(b) Wie viele dieser Worte beginnen und enden mit einem E ?**
 
 Fixierte Positionen: Anfang und Ende = E → verbleibend: L, V, N, E → (n = 4)
 
@@ -102,7 +96,7 @@ $$
 n! = 4! = 24
 $$
 
-### (c) Wie viele dieser Worte enthalten die drei E's direkt hintereinander ?
+**(c) Wie viele dieser Worte enthalten die drei E's direkt hintereinander ?**
 
 Block `EEE`, restliche Buchstaben: L, V, N → 4 Elemente:
 **Verwendete Formel: Permutationen ohne Wdh.:**
@@ -110,7 +104,7 @@ $$
 n! = 4! = 24
 $$
 
-### (d) Wie viele dieser Worte beginnen mit E und enden mit N ?
+**(d) Wie viele dieser Worte beginnen mit E und enden mit N ?**
 
 Verbleibende Buchstaben: 2xE, L, V
 
@@ -121,12 +115,11 @@ $$
         \frac{4!}{2!} = \frac{24}{2} = 12
 $$
 
- 
-# Präsenzveranstaltung SS 2025 - Anordnungen und Zahlenbildung mit Ziffern (5 P.)
-
+***
 ### Gegeben seien die Ziffern 1, 2, 3, 4, 5.
+#### Präsenzveranstaltung SS 2025
 
-### (a) Wie viele verschiedene Anordnungen dieser 5 Ziffern gibt es?
+**(a) Wie viele verschiedene Anordnungen dieser 5 Ziffern gibt es?**
 
 Vorbetrachtung: Die 5 Ziffern sind alle verschieden.
 
@@ -140,9 +133,8 @@ $$
 P_n = n! = 5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
 $$
 
-***
 
-### (b) Wie viele vierstellige Zahlen kann man aus diesen Ziffern bilden, wenn jede Ziffer beliebig oft vorkommen kann?
+**(b) Wie viele vierstellige Zahlen kann man aus diesen Ziffern bilden, wenn jede Ziffer beliebig oft vorkommen kann?**
 
 Vorbetrachtung: Hier dürfen Ziffern mehrfach verwendet werden (mit Wiederholung), und die Zahl besteht aus 4 Stellen (Variation).
 
@@ -155,9 +147,7 @@ $$
 n^k = 5^4 = 5 \cdot 5 \cdot 5 \cdot 5 = 625
 $$
 
-***
-
-### (c) Wie viele dreistellige Zahlen kann man bilden, wenn jede Ziffer nur höchstens einmal vorkommen darf?
+**(c) Wie viele dreistellige Zahlen kann man bilden, wenn jede Ziffer nur höchstens einmal vorkommen darf?**
 
 Vorbetrachtung: Es handelt sich um Variation ohne Wiederholung von 3 Ziffern aus 5.
 
