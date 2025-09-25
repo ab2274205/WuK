@@ -1,4 +1,4 @@
-## Würfelaufgabe
+## Würfelaufgaben
 ### Klausur WS 2006/07
 
 Sie werfen zwei Würfel. Wie groß ist die Wahrscheinlichkeit, dass
