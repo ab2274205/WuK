@@ -9,9 +9,22 @@
 | Stichprobe (k)   | Kombination  | nein        | ohne Wiederholung     | $$\binom{n}{k}$$ = $$\frac{n!}{[(n - k)! · k!]}$$ (Binomialkoeffizient) | [Auswahl](https://github.com/ab2274205/WuK/blob/main/Auswahl-Kombinatorik.md) | 
 | Stichprobe (k)   | Kombination  | nein        | mit Wiederholung      | $$\binom{n + k - 1}{k}$$                   ||
 
----
-
 **Legende:**  
 - *n* - Gesamtanzahl der Elemente in der Grundmenge
 - *n₁*,*n₂*,... - Anzahl gleicher Elemente  
 - *k* - Anzahl der Elemente in der Stichprobe  
+
+---
+**Urnen:**
+
+Ziehen ohne Zurücklegen ohne Reihenfolge:
+$$\binom{N}{n} = \frac{N!}{n! \cdot (N - n)!}$$
+
+Hypergeometrische Verteilung (Dichtefunktion):
+$$f(x) = \frac{\binom{M}{x} \cdot \binom{N - M}{n - x}}{\binom{N}{n}}$$
+
+**Legende:**  
+- $$N$$: Anzahl der Kugeln insgesamt 
+- $$M$$: Anzahl der schwarzen Kugeln 
+- $$n$$: Anzahl der Ziehungen
+- $$x$$: Anzahl der gezogenen schwarzen Kugeln
