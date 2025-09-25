@@ -2,7 +2,7 @@
 
 | Menge            | Name         | Reihenfolge | mit/ohne Wiederholung | Formel                                     |Verwendung |
 |------------------|--------------|-------------|-----------------------|--------------------------------------------|-----------|
-| alle Elemente    | Permutation  | ja          | ohne Wiederholung (ohne Zurücklegen)     | $$n!$$       | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
+| alle Elemente    | Permutation  | ja          | ohne Wiederholung (ohne Zurücklegen)     | $$n!$$       | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md), [Schachspiel](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md#beim-schachspiel-kann-ein-turm-nur-vertikal-oder-horizontal-ziehen-beziehungsweise-schlagen-wir-betrachten-nun-ein-verallgemeinertes-schachbrett-mit-nn-feldern-wie-viele-m%C3%B6glichkeiten-gibt-es-n-ununterscheidbare-t%C3%BCrme-so-auf-diesem-brett-zu-verteilen-dass-keiner-einen-anderen-bedroht-in-jeder-horizontalen-reihe-und-jeder-vertikalen-linie-darf-also-nur-h%C3%B6chstens-ein-turm-stehen) |
 | alle Elemente    | Permutation  | ja          | mit Wiederholung      | $$\frac{n!}{(n₁! · n₂! · ... · nₙ!)}$$       | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
 | Stichprobe (k)   | Variation    | ja          | ohne Wiederholung     | $$\frac{n!}{(n - k)!}$$                     | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
 | Stichprobe (k)   | Variation    | ja          | mit Wiederholung      | $$n^k$$                                   | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
