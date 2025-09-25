@@ -4,7 +4,7 @@
 #### Klausur WS 2006/07
 a) ohne Zurücklegen,
 
-Beim Ziehen ohne Zurücklegen verändert sich nach dem ersten Zug die Anzahl der Bälle einer Farbe und die Gesamtzahl im zweiten Zug. Wir berechnen für jede Farbe die Wahrscheinlichkeit, dass beide gezogenen Bälle diese Farbe haben, und addieren die Wahrscheinlichkeiten:
+Beim Ziehen ohne Zurücklegen verändert sich nach dem ersten Zug die Anzahl der Bälle einer Farbe und die Gesamtzahl im zweiten Zug. Wir berechnen für jede Farbe die Wahrscheinlichkeit, dass beide gezogenen Bälle diese Farbe haben, und addieren die Wahrscheinlichkeiten. 
 
 - **Blaue:**
 $$P_{blau}$$ = $$\frac{3}{10} \times \frac{2}{9}$$
