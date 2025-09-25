@@ -1,4 +1,4 @@
-# Kombinatorik
+# [Kombinatorik](https://github.com/ab2274205/WuK/blob/main/Kombinatorik-Aufgaben.md) und [Kombinatorik-Auswahl](https://github.com/ab2274205/WuK/blob/main/Auswahl-Kombinatorik-Aufgaben.md)
 
 | Menge            | Name         | Reihenfolge | mit/ohne Wiederholung | Formel                                     |Verwendung |
 |------------------|--------------|-------------|-----------------------|--------------------------------------------|-----------|
@@ -15,7 +15,8 @@
 - *k* - Anzahl der Elemente in der Stichprobe  
 
 ---
-**Urnen-Aufgaben:**
+
+**[Urnen-Aufgaben:](https://github.com/ab2274205/WuK/blob/main/Urnen-Aufgaben.md)**
 
 Ziehen ohne Zurücklegen ohne Reihenfolge:
 $$\binom{N}{n} = \frac{N!}{n! \cdot (N - n)!}$$
@@ -31,7 +32,7 @@ $$f(x) = \frac{\binom{M}{x} \cdot \binom{N - M}{n - x}}{\binom{N}{n}}$$
 
 
 ---
-**Würfel-Aufgaben**
+**[Würfel-Aufgaben](https://github.com/ab2274205/WuK/blob/main/Würfel-Aufgaben.md)**
 
 **Formel:** Laplace-Wahrscheinlichkeit ist die klassische Definition der Wahrscheinlichkeit für Zufallsexperimente mit endlicher Ergebnismenge, bei der alle Ergebnisse gleichwahrscheinlich sind. Die Wahrscheinlichkeit für ein Ereignis $$A$$ berechnet sich als: 
 
