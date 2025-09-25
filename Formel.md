@@ -15,7 +15,7 @@
 - *k* - Anzahl der Elemente in der Stichprobe  
 
 ---
-**Urnen:**
+**Urnen-Aufgaben:**
 
 Ziehen ohne Zurücklegen ohne Reihenfolge:
 $$\binom{N}{n} = \frac{N!}{n! \cdot (N - n)!}$$
@@ -28,3 +28,16 @@ $$f(x) = \frac{\binom{M}{x} \cdot \binom{N - M}{n - x}}{\binom{N}{n}}$$
 - $$M$$: Anzahl der schwarzen Kugeln 
 - $$n$$: Anzahl der Ziehungen
 - $$x$$: Anzahl der gezogenen schwarzen Kugeln
+
+
+---
+**Würfel-Aufgaben**
+
+**Formel:** Laplace-Wahrscheinlichkeit ist die klassische Definition der Wahrscheinlichkeit für Zufallsexperimente mit endlicher Ergebnismenge, bei der alle Ergebnisse gleichwahrscheinlich sind. Die Wahrscheinlichkeit für ein Ereignis $$A$$ berechnet sich als: 
+
+$$P(A) = \frac{\text{Anzahl der Ergebnisse, bei denen das Ereignis } A \text{ eintritt}}{\text{Anzahl aller möglichen Ergebnisse}} = \frac{|A|}{|\Omega|}$$
+
+Hierbei bezeichnet:
+
+- $$|A|$$ die Anzahl der günstigen Ergebnisse (Elemente des Ereignisses $$A$$),
+- $$|\Omega|$$ die Anzahl aller möglichen Ergebnisse (Ergebnismenge).
