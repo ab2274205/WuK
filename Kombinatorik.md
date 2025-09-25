@@ -195,3 +195,67 @@ BB, FF, NN, 6 x A
  Es gibt:
         9! / (6! 1! 1! 1!) = 504
     Anordnungen.
+
+
+### Beim Schachspiel kann ein Turm nur vertikal oder horizontal ziehen beziehungsweise schlagen. Wir betrachten nun ein „verallgemeinertes Schachbrett“ mit n×n Feldern. Wie viele Möglichkeiten gibt es, n ununterscheidbare Türme so auf diesem Brett zu verteilen, dass keiner einen anderen bedroht? In jeder (horizontalen) Reihe und jeder (vertikalen) Linie darf also nur höchstens ein Turm stehen.
+#### 2006/07
+
+Pro Reihe und pro Spalte darf nur maximal ein Turm stehen -- **Permutationsproblem**
+
+$$n$$ (Gesamtanzahl der Möglichkeiten)
+ 
+**n!**
+
+**1.** 
+
+| X | - | - |
+
+| - | X | - |
+
+| - | - | X |
+
+**2.**
+
+| X | - | - |
+
+| - | - | X |
+
+| - | X | - |
+
+
+**3.**
+
+| - | X | - |
+
+| X | - | - |
+
+| - | - | X |
+
+
+**4.**
+
+| - | X | - |
+
+| - | - | X |
+
+| X | - | - |
+
+
+**5.**
+
+| - | - | X |
+
+| X | - | - |
+
+| - | X | - |
+
+
+**6.**
+
+| - | - | X |
+
+| - | X | - |
+
+| X | - | - |
+
+
