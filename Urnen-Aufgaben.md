@@ -36,4 +36,4 @@ Gesamtwahrscheinlichkeit (Summe):
 
 $$P_{\text{gleich}} = \frac{3 \cdot 3 + 2 \cdot 2 + 5 \cdot 5}{10 \cdot 10}= \frac{9+4+25}{100}= \frac{38}{100}= 0,38$$
 
-<img width="3600" height="2400" alt="image" src="https://github.com/user-attachments/assets/8331dc0d-b7f0-4cc5-8db9-e3f2fc93f641" />
+<img width="4200" height="3000" alt="image" src="https://github.com/user-attachments/assets/edcfafa3-5f03-4f0f-831f-ddb3d48521fc" />
