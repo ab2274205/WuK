@@ -1,6 +1,6 @@
 ## Aufgabe
 
-### Die kontinuierliche Zufallsvariable \$ X \$ besitze die Dichtefunktion
+### Die kontinuierliche Zufallsvariable $$X$$ besitze die Dichtefunktion
 $$
 f(x) = 
 \begin{cases}
@@ -38,8 +38,6 @@ Also:
 $$
 C \cdot \frac{4}{3} = 1 \implies C = \frac{3}{4}
 $$
-
-***
 
 ### Skizze \$ f(x) \$:
 
