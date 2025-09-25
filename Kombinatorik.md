@@ -258,4 +258,46 @@ $$n$$ (Gesamtanzahl der Möglichkeiten)
 
 | X | - | - |
 
+***
+### Wie viele verschiedene fünfstellige Zahlen kann man durch Nebeneinanderlegen von 5 von 6 Kärtchen bilden, auf denen die Ziffern 1, 1, 2, 2, 2, 3 stehen? (Permutationen mit Wiederholungen)
+#### Klausur 2006/07 
+### Berechnung:
+
+**Fall 1: {1, 2, 2, 2, 3}**
+
+- 5 Ziffern insgesamt
+- drei 2er gleich
+
+$$
+\frac{5!}{3!} = \frac{120}{6} = 20
+$$
+
+**Fall 2: {1, 1, 2, 2, 3}**
+
+- 5 Ziffern
+- zwei 1er gleich
+- zwei 2er gleich
+
+$$
+\frac{5!}{2! \cdot 2!} = \frac{120}{2 \cdot 2} = 30
+$$
+
+
+**Fall 3: {1, 1, 2, 2, 2}**
+
+- 5 Ziffern
+- zwei 1er gleich
+- drei 2er gleich
+
+$$
+\frac{5!}{2! \cdot 3!} = \frac{120}{2 \cdot 6} = 10
+$$
+
+### Schritt 3: Gesamte Anzahl möglicher Zahlen
+
+$$
+20 + 30 + 10 = 60
+$$
+
+***
 
