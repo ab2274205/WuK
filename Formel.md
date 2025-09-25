@@ -42,3 +42,16 @@ Hierbei bezeichnet:
 
 - $$|A|$$ die Anzahl der günstigen Ergebnisse (Elemente des Ereignisses $$A$$),
 - $$|\Omega|$$ die Anzahl aller möglichen Ergebnisse (Ergebnismenge).
+
+
+**[Binomialverteilung: Wahrscheinlichkeitsfunktion](https://github.com/ab2274205/WuK/blob/main/Binomialverteilung-Aufgabe.md)**
+
+$$
+P(k) = \binom{n}{k} p^k q^{n-k}
+$$
+
+- $n$: Anzahl der Sätze (Versuche)
+- $k$: Anzahl der gewonnenen Sätze (Erfolge)
+- $\binom{n}{k}$: Binomialkoeffizient, Anzahl der Möglichkeiten, $k$ Erfolge aus n Sätzen zu wählen
+- $p^k$: Wahrscheinlichkeit für $k$ Erfolge (Erfolgswahrscheinlichkeit)
+- $q^{n-k}$: Wahrscheinlichkeit für ($n-k$) Misserfolge (Misserfolgswahrscheinlichkeit)
