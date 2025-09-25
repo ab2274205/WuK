@@ -7,6 +7,17 @@ Sie werfen zwei Würfel. Wie groß ist die Wahrscheinlichkeit, dass
 
 ### (a) Mindestens einer der Würfel zeigt eine 6
 
+**Formel:** Laplace-Wahrscheinlichkeit ist die klassische Definition der Wahrscheinlichkeit für Zufallsexperimente mit endlicher Ergebnismenge, bei der alle Ergebnisse gleichwahrscheinlich sind. Die Wahrscheinlichkeit für ein Ereignis $$A$$ berechnet sich als: 
+
+$$P(A) = \frac{\text{Anzahl der Ergebnisse, bei denen das Ereignis } A \text{ eintritt}}{\text{Anzahl aller möglichen Ergebnisse}} = \frac{|A|}{|\Omega|}$$
+
+Hierbei bezeichnet:
+
+- $$|A|$$ die Anzahl der günstigen Ergebnisse (Elemente des Ereignisses $$A$$),
+- $$|\Omega|$$ die Anzahl aller möglichen Ergebnisse (Ergebnismenge).
+
+Diese Definition setzt voraus, dass alle Elementarereignisse gleichwahrscheinlich sind.
+
 - Anzahl aller möglicher Ergebnisse: $$(6 \times 6 = 36)$$
 - Anzahl der Ergebnisse ohne eine 6: $$(5 \times 5 = 25)$$
 - Wahrscheinlichkeit
