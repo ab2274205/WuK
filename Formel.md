@@ -16,7 +16,7 @@
 
 ---
 
-**[Urnen-Aufgaben:](https://github.com/ab2274205/WuK/blob/main/Urnen-Aufgaben.md)**
+**[Urnenmodell:](https://github.com/ab2274205/WuK/blob/main/Urnen-Aufgaben.md)**
 
 Ziehen ohne Zurücklegen ohne Reihenfolge:
 $$\binom{N}{n} = \frac{N!}{n! \cdot (N - n)!}$$
@@ -44,7 +44,7 @@ Hierbei bezeichnet:
 - $$|\Omega|$$ die Anzahl aller möglichen Ergebnisse (Ergebnismenge).
 
 ---
-**[Binomialverteilung: Wahrscheinlichkeitsfunktion](https://github.com/ab2274205/WuK/blob/main/Binomialverteilung-Aufgabe.md)**
+**[Binomialverteilung, Laplace-Experiment: Wahrscheinlichkeitsfunktion](https://github.com/ab2274205/WuK/blob/main/Binomialverteilung-Aufgabe.md)**
 
 $$
 P(k) = \binom{n}{k} p^k q^{n-k}
