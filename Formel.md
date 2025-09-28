@@ -99,6 +99,4 @@ $$
 $$
 
 Der Erwartungswert $\mu$ einer stetigen Zufallsvariablen X im Intervall von a bis b wird mit folgender Formel berechnet:
-$$
-\mu = \int_a^b x \cdot f(x) dx
-$$
+$$\mu = \int_a^b x \cdot f(x) dx$$
