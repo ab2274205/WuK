@@ -95,5 +95,6 @@ Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable 
 | f(x) = 1/x | F(x) = ln(x) |
 
 $$
-\int_a^b f(x)\, dx = [F(x)]_a^b = F(b) - F(a)
+\int_a^b f(x)\, dx = [F(x)]_a^b = F(b) - F(a) = (F(b) - F(a)) * C = 1
 $$
+
