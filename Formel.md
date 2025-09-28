@@ -84,3 +84,12 @@ $$F(x) = \frac{a}{n+1} x^{n+1}$$
 | Darstellung | $$\int f(x) dx$$ = F(x) + C$$ | $$\int_a^b f(x) dx$$ |
 
 Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable $x$ heißt Integrationsvariable und $C$ ist die Integrationskonstante.
+
+| f(x) | F(x) |
+| :-- | :-- |
+| f(x) = 1 | F(x) = x |
+| f(x) = 2 | F(x) = 2x |
+| f(x) = eˣ | F(x) = eˣ |
+| f(x) = sin(x) | F(x) = -cos(x) |
+| f(x) = cos(x) | F(x) = sin(x) |
+| f(x) = 1/x | F(x) = ln(x) |
