@@ -1,4 +1,4 @@
-## Aufgabe
+## Aufgabe - Klausur 2006/07
 
 ### Die kontinuierliche Zufallsvariable $$X$$ besitze die Dichtefunktion
 $$
@@ -39,7 +39,7 @@ $$
 C \cdot \frac{4}{3} = 1 \implies C = \frac{3}{4}
 $$
 
-### Skizze \$ f(x) \$:
+### Skizze $$f(x)$$:
 
 - Die Dichte ist eine nach unten geöffnete Parabel, nach oben verschoben, im Bereich $[-1,1]$ und bei $|x| = 1$ verschwindet sie.
 - Maximalwert bei \$ x = 0 \$ (dort $f(0) = \frac{3}{4}$).
@@ -99,5 +99,87 @@ $$\int_{0}^{\frac{1}{2}} (1-x^2) dx = \left[x - \frac{x^3}{3}\right]_0^{1/2} = \
 Somit:
 
 $$P\left(|X| < \frac{1}{2}\right) = \frac{3}{2} \cdot \frac{11}{24} = \frac{33}{48}$$
+
+***
+
+# Aufgabe - Klausur 2014
+
+$$
+f(x) = 
+\begin{cases}
+Cx & 0 \leq x \leq a \\\\
+0 & \text{sonst}
+\end{cases}
+\qquad (a > 0)
+$$
+
+
+### a) Verlauf von f(x)
+
+Die Funktion f(x) ist eine Gerade, die bei x=0 mit Wert 0 startet und bei x=a den Wert C·a erreicht. Für x außerhalb [0,a] ist f(x)=0. Das ergibt eine ansteigende Linie von 0 bis C·a im angegebenen Intervall.
+
+***
+
+### b) Wert von Faktor C
+
+Die Dichtefunktion muss die Bedingung erfüllen:
+
+$$
+\int_0^a f(x)\,dx = 1
+$$
+
+Einsetzen:
+
+$$
+\int_0^a Cx\,dx = C \cdot \left[\frac{x^2}{2}\right]_0^a = C\cdot \frac{a^2}{2}
+$$
+
+Setze gleich eins:
+
+$$
+C\cdot \frac{a^2}{2} = 1 \rightarrow C = \frac{2}{a^2}
+$$
+
+***
+
+### c) Erwartungswert E[X]
+
+$$
+E[X] = \int_0^a x\cdot f(x)\,dx = \int_0^a x\cdot(Cx)\,dx = C\int_0^a x^2\,dx = C\cdot \left[\frac{x^3}{3}\right]_0^a = C\cdot \frac{a^3}{3}
+$$
+
+Einsetzen von C:
+
+$$
+E[X] = \frac{2}{a^2}\cdot \frac{a^3}{3} = \frac{2a}{3}
+$$
+
+***
+
+### d) Standardabweichung von X
+
+Berechne zuerst \$ E[X^2] \$:
+
+$$
+E[X^2] = \int_0^a x^2\cdot f(x)\,dx = \int_0^a x^2\cdot(Cx)\,dx = C\int_0^a x^3\,dx = C\cdot \left[\frac{x^4}{4}\right]_0^a = C\cdot \frac{a^4}{4}
+$$
+
+Einsetzen von C:
+
+$$
+E[X^2] = \frac{2}{a^2} \cdot \frac{a^4}{4} = \frac{a^2}{2}
+$$
+
+Varianz:
+
+$$
+\text{Var}(X) = E[X^2] - [E[X]]^2 = \frac{a^2}{2} - \left(\frac{2a}{3}\right)^2 = \frac{a^2}{2} - \frac{4a^2}{9} = \frac{a^2}{18}
+$$
+
+Standardabweichung:
+
+$$
+\sigma_X = \sqrt{\frac{a^2}{18}} = \frac{a\sqrt{2}}{6}
+$$
 
 ***
