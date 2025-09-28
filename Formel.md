@@ -63,9 +63,18 @@ $$
 $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 $$P(\text{Positiv}) = P(\text{Positiv} | \text{Krank}) \times P(\text{Krank}) + P(\text{Positiv} | \text{Gesund}) \times P(\text{Gesund})$$
 
-
+---
 **Wahrscheinlichkeit**
 
 $$P(A) = 1 − P(A)$$
 $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 $$P(A \ B) = P(A) − P(A ∩ B)$$
+
+---
+**Übersicht typischer Stammfunktionen in der Integralrechnung**
+
+Wenn $F$ eine Stammfunktion von $f$ ist und $C$ eine beliebige reelle Zahl (Konstante), dann ist auch $F(x) + C$ eine Stammfunktion von $f$.
+
+$$f(x) = ax^n$$
+
+$$F(x) = \frac{a}{n+1} x^{n+1}$$
