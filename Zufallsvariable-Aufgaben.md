@@ -28,6 +28,9 @@ C \int_{-1}^{1} (1-x^2) dx = 1
 $$
 
 Das Integral:
+$$f(x) = ax^n$$
+
+$$F(x) = \frac{a}{n+1} x^{n+1}$$
 
 $$
 \int_{-1}^{1} (1-x^2) dx = \left[ x - \frac{x^3}{3} \right]_{-1}^{1} = \left(1 - \frac{1}{3}\right) - \left(-1 + \frac{1}{3}\right) = \left(\frac{2}{3}\right) - \left(-\frac{2}{3}\right) = \frac{4}{3}
