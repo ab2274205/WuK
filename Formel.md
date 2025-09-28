@@ -78,3 +78,13 @@ Wenn $F$ eine Stammfunktion von $f$ ist und $C$ eine beliebige reelle Zahl (Kons
 $$f(x) = ax^n$$
 
 $$F(x) = \frac{a}{n+1} x^{n+1}$$
+
+Unbestimmte Integrale lautet:
+
+$$\int f(x) dx = F(x) + C$$
+
+Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable $x$ heißt Integrationsvariable und $C$ ist die Integrationskonstante. Hier zwei **Beispiele** für unbestimmte Integrale:
+
+$$
+\int 2x dx = x^2 + C
+$$
