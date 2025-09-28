@@ -93,3 +93,7 @@ Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable 
 | f(x) = sin(x) | F(x) = -cos(x) |
 | f(x) = cos(x) | F(x) = sin(x) |
 | f(x) = 1/x | F(x) = ln(x) |
+
+$$
+\int_a^b f(x)\, dx = [F(x)]_a^b = F(b) - F(a)
+$$
