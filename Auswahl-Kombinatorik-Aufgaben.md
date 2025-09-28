@@ -84,21 +84,37 @@ $$
 
 (a) Genau 2 rote und 2 gelbe Rosen sollen dabei sein
 
-???????? 
+- 6 Kugeln (Rosen) in 4 Kisten (Farben)
+- 2 rote Rosen (fixiert)
+- 2 gelbe Rosen (fixiert)
+- Es fehlen noch 2 Rosen, die aus den restlichen Farben gewählt werden können (bei insgesamt 4 Farben bleiben noch weiß und rosa)
+- Verteilen von 2 Rosen auf 2 Farben
+- Kombinatorik mit Wiederholung:
 
-3
+- **n** = 2 (Anzahl der möglichen Farben für die Rosen (z.B. 2 Farben zur Auswahl)),
+- **k** = 2 (Anzahl der zu wählenden Rosen (z.B. 2 Rosen für einen Strauß))
 
-????????
+$$ \binom{n + k - 1}{k} = \binom{2 + 1 - 1}{2} = 3 $$
+
+Diese 3 Verteilungen sind:
+- 2 Rosen von C, 0 von D
+- 1 Rose von C, 1 von D
+- 0 von C, 2 von D
 
 (b) Jede der 4 Farben muss mindestens einmal vorkommen
 
-????????
+- **n** = 4 (Anzahl der Rosenfarben, also wie viele Farboptionen es gibt)
+- **k** = 6 (Anzahl der Rosen im Strauß, die zusammengestellt werden sollen)
 
-$$
-\binom{5}{2} = 10
-$$
+$$ \binom{n + k - 1}{k} = \binom{2 + 4 - 1}{2} = 10 $$
 
-????????
+Farbverteilung der restlichen 2 Rosen - Anzahl Möglichkeiten
+
+2 zu einer Farbe, andere 0 - 4
+
+1 zu zwei Farben -	6
+
+= 10
 
 (c) Farbzusammenstellung beliebig
 
