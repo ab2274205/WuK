@@ -95,6 +95,10 @@ Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable 
 | f(x) = 1/x | F(x) = ln(x) |
 
 $$
-\int_a^b f(x)\, dx = [F(x)]_a^b = F(b) - F(a) = (F(b) - F(a)) * C = 1
+\int_a^b f(x)\, dx = [F(x)]_a^b = F(b) - F(a) = (F(b) - F(a)) \cdot C = 1
 $$
 
+Der Erwartungswert $\mu$ einer stetigen Zufallsvariablen X im Intervall von a bis b wird mit folgender Formel berechnet:
+$$
+\mu = \int_a^b x \cdot f(x) dx
+$$
