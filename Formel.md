@@ -62,3 +62,10 @@ $$
 
 $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 $$P(\text{Positiv}) = P(\text{Positiv} | \text{Krank}) \times P(\text{Krank}) + P(\text{Positiv} | \text{Gesund}) \times P(\text{Gesund})$$
+
+
+**Wahrscheinlichkeit**
+
+$$P(A) = 1 − P(A)$$
+$$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
+$$P(A \ B) = P(A) − P(A ∩ B)$$
