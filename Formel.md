@@ -43,7 +43,7 @@ Hierbei bezeichnet:
 - $$|A|$$ die Anzahl der günstigen Ergebnisse (Elemente des Ereignisses $$A$$),
 - $$|\Omega|$$ die Anzahl aller möglichen Ergebnisse (Ergebnismenge).
 
-
+---
 **[Binomialverteilung: Wahrscheinlichkeitsfunktion](https://github.com/ab2274205/WuK/blob/main/Binomialverteilung-Aufgabe.md)**
 
 $$
@@ -55,3 +55,10 @@ $$
 - $\binom{n}{k}$: Binomialkoeffizient, Anzahl der Möglichkeiten, $k$ Erfolge aus n Sätzen zu wählen
 - $p^k$: Wahrscheinlichkeit für $k$ Erfolge (Erfolgswahrscheinlichkeit)
 - $q^{n-k}$: Wahrscheinlichkeit für ($n-k$) Misserfolge (Misserfolgswahrscheinlichkeit)
+
+---
+
+**[Der Satz von Bayes](https://github.com/ab2274205/WuK/blob/main/Bayes-Aufgaben.md)**
+
+$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+$$P(\text{Positiv}) = P(\text{Positiv} | \text{Krank}) \times P(\text{Krank}) + P(\text{Positiv} | \text{Gesund}) \times P(\text{Gesund})$$
