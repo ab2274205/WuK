@@ -7,7 +7,7 @@
 | Stichprobe (k)   | Variation    | ja          | ohne Wiederholung     | $$\frac{n!}{(n - k)!}$$                     | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
 | Stichprobe (k)   | Variation    | ja          | mit Wiederholung      | $$n^k$$                                   | [Buchstabensalat](https://github.com/ab2274205/WuK/blob/main/Kombinatorik.md) |
 | Stichprobe (k)   | Kombination  | nein        | ohne Wiederholung     | $$\binom{n}{k}$$ = $$\frac{n!}{[(n - k)! · k!]}$$ (Binomialkoeffizient) | [Auswahl](https://github.com/ab2274205/WuK/blob/main/Auswahl-Kombinatorik.md) | 
-| Stichprobe (k)   | Kombination  | nein        | mit Wiederholung      | $$\binom{n + k - 1}{k}$$                   ||
+| Stichprobe (k)   | Kombination  | nein        | mit Wiederholung      | $$\binom{n + k - 1}{k}$$                   | [Sträuße](https://github.com/ab2274205/WuK/blob/main/Auswahl-Kombinatorik-Aufgaben.md#ein-florist-hat-rosen-in-4-verschiedenen-farben-vorr%C3%A4tig-auf-wie-viele-weisen-k%C3%B6nnen-sie-str%C3%A4u%C3%9Fe-aus-6-rosen-zusammenstellen-wenn)|
 
 **Legende:**  
 - *n* - Gesamtanzahl der Elemente in der Grundmenge
