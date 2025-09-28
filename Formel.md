@@ -79,12 +79,8 @@ $$f(x) = ax^n$$
 
 $$F(x) = \frac{a}{n+1} x^{n+1}$$
 
-Unbestimmte Integrale lautet:
+|  | Unbestimmtes Integral | Bestimmtes Integral |
+| :-- | :-- | :-- |
+| Darstellung | $$\int f(x) dx$$ = F(x) + C$$ | $$\int_a^b f(x) dx$$ |
 
-$$\int f(x) dx = F(x) + C$$
-
-Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable $x$ heißt Integrationsvariable und $C$ ist die Integrationskonstante. Hier zwei **Beispiele** für unbestimmte Integrale:
-
-$$
-\int 2x dx = x^2 + C
-$$
+Dabei ist $\int$ das Integrationszeichen und $f(x)$ der Integrand. Die Variable $x$ heißt Integrationsvariable und $C$ ist die Integrationskonstante. Hier zwei 
