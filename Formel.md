@@ -71,7 +71,7 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 $$P(A \ B) = P(A) − P(A ∩ B)$$
 
 ---
-**Übersicht typischer Stammfunktionen in der Integralrechnung**
+**[Übersicht typischer Stammfunktionen in der Integralrechnung](https://github.com/ab2274205/WuK/blob/main/Zufallsvariable-Aufgaben.md)**
 
 Wenn $F$ eine Stammfunktion von $f$ ist und $C$ eine beliebige reelle Zahl (Konstante), dann ist auch $F(x) + C$ eine Stammfunktion von $f$.
 
