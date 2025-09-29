@@ -114,3 +114,19 @@ Standardabweichung:
 $$
 \sigma_X = \sqrt{\text{Var}(X)}
 $$
+
+
+---
+### Siebformel
+
+1. **Für zwei Mengen:**
+
+$$|A \cup B| = |A| + |B| - |A \cap B|$$
+
+2. **Für drei Mengen:**
+
+$$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$$
+
+3. **Für vier Mengen:**
+
+$$|A \cup B \cup C \cup D| = |A| + |B| + |C| + |D|- |A \cap B| - |A \cap C| - |A \cap D| - |B \cap C| - |B \cap D| - |C \cap D|+ |A \cap B \cap C| + |A \cap B \cap D| + |A \cap C \cap D| + |B \cap C \cap D|- |A \cap B \cap C \cap D|$$
